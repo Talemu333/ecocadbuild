@@ -168,13 +168,14 @@
                 </div>
                 <div>
                     <form>
-                        <input type="text" placeholder="enter your name:" required>
-                        <input type="text" placeholder="input mobile number:" required>
-                        <input type="text" placeholder="input email:" required>
-                        <input type="text" placeholder="Whatsapp:" required>
-                        <input type="text" placeholder="Project Type:" required>
-                        <textarea name="message" placeholder="Message:" id="" rows="5"></textarea>
-                        <button class="submit">Submit</button>
+                        <input type="text" id="name" placeholder="enter your name" required>
+                        <input type="text" id="phone" placeholder="input mobile number" required>
+                        <input type="text" id="email" placeholder="input email" required>
+                        <input type="text" id="whatsapp" placeholder="whatsapp" required>
+                        <input type="text" id="projType" placeholder="project Type" required>
+                        <textarea name="message" placeholder="Message:" id="message" rows="5"></textarea>
+                        <button type="button" class="submit">Submit</button>
+                        <p id="alert"></p>
                     </form>
                 </div>
             </div>
@@ -199,5 +200,6 @@
 
 
     <script src="../../utils/js/script.js"></script>
+    <script src="../../utils/js/eco.js"></script>
 </body>
 </html>

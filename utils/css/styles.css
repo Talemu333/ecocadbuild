@@ -447,6 +447,9 @@ textarea::placeholder{
     color: white;
     cursor: pointer;
 }
+.reply{
+    color: white;
+}
 .footer{
     bottom: 0;
     left: 0;
