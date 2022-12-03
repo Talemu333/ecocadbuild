@@ -19,7 +19,7 @@ button.addEventListener('click', (e) => {
     const message = userMessage.value
    
    
-    const url = `http://localhost:3000/contact?name=${name}&mobile=${phone}&email=${email}&whatsapp=${whatsapp}&projectType=${projectType}&message=${message}`
+    const url = `/contact?name=${name}&mobile=${phone}&email=${email}&whatsapp=${whatsapp}&projectType=${projectType}&message=${message}`
 
     fetch(url)
     .then((response) => {
